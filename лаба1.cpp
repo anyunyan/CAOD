@@ -22,7 +22,7 @@ void BinIn(unsigned char* Buf, int len) {
 }
 int main() {
 	setlocale(LC_ALL, "Russian");
-	// Представление целых чисел без знака(тип unsigned int)
+	
 	unsigned int n;
 	cout << "Введите число типа unsigned int: ";
 	cin >> n;
